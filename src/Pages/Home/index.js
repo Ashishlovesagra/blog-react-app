@@ -1,6 +1,6 @@
 import React from 'react'
+import Footer from '../../Component/Footer/Footer';
 import Navbar from '../../Component/Navbar';
-// import HomeHollyLatest from './Latest/HomeHollyLatest';
 import HomeLatest from './Latest/HomeLatest';
 import HomeLatestArticle from './Latest/HomeLatestArticle';
 import HomeTechLatest from './Latest/HomeTechLatest';
@@ -23,7 +23,7 @@ function Home() {
           <HomeTopRight/>
         </div>
       </div>
-      {/* <HomeHollyLatest/> */}
+      <Footer/>
     </div>
   )
 }
