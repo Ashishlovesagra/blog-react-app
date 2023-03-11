@@ -12,7 +12,7 @@ function HomeTopRight() {
     const showItem = filterdata.slice(1,4)
   return (
     <>
-    <div className="homeTopAdd"></div>
+    <div className="homeTopAdd"><span className='toppost-add'>Advertistement</span></div>
     <div className="homeTopRight">
         <h1 className='hometopposth1'>Top Posts</h1>
         <hr className='homeTopRighthr' />
